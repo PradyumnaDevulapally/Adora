@@ -1,16 +1,65 @@
-# React + Vite
+# Adora — Jewelry Brand Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist jewelry website built with React (Vite) and TailwindCSS.  
+Developed as part of a frontend assignment for Nivara Diamonds, focused on responsiveness, functionality, and modern design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+[https://adora-jewelry.netlify.app](https://adora-jewelry.netlify.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- Frontend: React (Vite)
+- Styling: TailwindCSS
+- Routing: React Router DOM
+- Deployment: Netlify
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Dynamic base price logic: updates all product prices across the site.
+- Color swatches: switching colors updates product images dynamically.
+- Responsive grid layout: optimized for mobile, tablet, and desktop.
+- Minimal, clean UI design.
+- Lazy loading for better performance.
+
+---
+
+## Folder Structure
+Adora/
+┣ src/
+┃ ┣ assets/ # Images and brand assets
+┃ ┣ components/ # Reusable UI components
+┃ ┣ pages/ # Page components (Home, Collection)
+┃ ┣ data/ # Product data file
+┃ ┗ App.jsx # Main app entry
+┣ public/ # Static assets
+┣ index.html
+┣ tailwind.config.js
+┣ vite.config.js
+┣ package.json
+┗ README.md
+
+
+---
+
+## Design Approach
+The design focuses on simplicity, whitespace, and clarity to reflect a luxury jewelry brand identity.  
+Neutral tones, balanced typography, and consistent spacing help maintain a modern, refined look.
+
+---
+
+## Future Improvements
+- Integrate with Shopify or a backend for real product data
+- Add search and filtering functionality
+- Implement cart and checkout flow
+- Improve animations and SEO
+
+---
+
+## Developer
+D.V.S. Pradyumna  
+Frontend Developer | MERN Stack Learner  
+Hyderabad, India
