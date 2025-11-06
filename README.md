@@ -56,7 +56,7 @@ Neutral tones, balanced typography, and consistent spacing help maintain a moder
 - Add search and filtering functionality
 - Implement cart and checkout flow
 - Improve animations and SEO
-
+  
 ---
 
 ## Developer
