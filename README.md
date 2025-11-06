@@ -30,18 +30,18 @@ Developed as part of a frontend assignment for Nivara Diamonds, focused on respo
 ## Folder Structure
 
 Adora/
-┣ src/
-┃ ┣ assets/ # Images and brand assets
-┃ ┣ components/ # Reusable UI components
-┃ ┣ pages/ # Page components (Home, Collection)
-┃ ┣ data/ # Product data file
-┃ ┗ App.jsx # Main app entry
-┣ public/ # Static assets
-┣ index.html
-┣ tailwind.config.js
-┣ vite.config.js
-┣ package.json
-┗ README.md
+├── public/ # Static assets
+├── src/
+│ ├── assets/ # Images and brand assets
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components (Home, Collection)
+│ ├── data/ # Product data
+│ └── App.jsx # Main app entry
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md```
 
 
 ---
